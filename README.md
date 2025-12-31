@@ -36,15 +36,20 @@ This project focuses on building a clean, responsive card component using semant
 ---
 
 ### Screenshot
+Desktop
 
-![Blog preview card screenshot](./assets/images/preview.png)
+![Blog preview card screenshot Desktop](./assets/images/desc.png)
+
+Mobile
+
+![Blog preview card screenshot Mobile](./assets/images/mob.png)
 
 ---
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/profile/nevikai)
-- Live Site URL: https://front-end-training-nevikai.github.io/Blog-preview-card/
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/solution-blog-preview-card-hvMVSjb2s6)
+- Live Site URL: [Live Demo](https://front-end-training-nevikai.github.io/Blog-preview-card/)
 
 ---
 
