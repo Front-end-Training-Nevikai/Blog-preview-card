@@ -52,6 +52,11 @@ body {
 .card__sec-title {
   font-size: 1.25rem;
   font-weight: 800;
+  color: var(--color-gray-950);
+  cursor: pointer;
+}
+.card__sec-title:hover{
+    color:var(--color-yellow)
 }
 .card__sec-text {
   font-size: var(--txt-sm);
