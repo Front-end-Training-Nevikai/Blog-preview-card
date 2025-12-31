@@ -1,0 +1,20 @@
+@import url(assets/styles/root.css);
+@import url(assets/styles/reset.css);
+
+@media (min-width: 48rem) {
+  .card {
+    min-width: 24rem;
+  }
+
+  .card__author-name {
+    font-size: var(--txt-md);
+  }
+  .card__sec-label,
+  .card__sec-text,
+  .card__sec-date {
+    font-size: var(--txt-md) !important;
+  }
+  .card__sec-title {
+    font-size: var(--txt-lg) !important;
+  }
+}

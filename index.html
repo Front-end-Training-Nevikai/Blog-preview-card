@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- displays site properly based on user's device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon Frontendmentor -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <!-- Title Site -->
+    <title>Frontend Mentor | Blog preview card</title>
+
+    <!-- link to css -->
+    <link rel="stylesheet" href="assets/styles/main.css" />
+
+    <!-- link to font Figtree-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- open graph -->
+    <meta
+      name="description"
+      content="A beginner-friendly HTML & CSS challenge with a fixed card layout."
+    />
+    <meta
+      property="og:url"
+      content="https://front-end-training-nevikai.github.io/Blog-preview-card/"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Blog preview card" />
+    <meta
+      property="og:description"
+      content="A beginner-friendly HTML & CSS challenge with a fixed card layout."
+    />
+    <meta property="og:image" content="" />
+  </head>
+
+  <body>
+    <!-- main container -->
+    <main class="card">
+      <!-- image card -->
+      <figure class="card__figure">
+        <img
+          src="assets/images/illustration-article.svg"
+          alt="article image fantesy"
+          class="card__image"
+        />
+      </figure>
+
+      <!-- Content -->
+      <section class="card__sec">
+        <p class="card__sec-label">Learning</p>
+        <p class="card__sec-date">Published 21 Dec 2023</p>
+        <h1 class="card__sec-title">HTML & CSS foundations</h1>
+        <p class="card__sec-text">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+      </section>
+
+      <!-- card author  -->
+      <section class="card__author">
+        <figure class="card__author-figure">
+          <img
+            src="assets/images/image-avatar.webp"
+            alt="author image"
+            class="card__author-image"
+          />
+        </figure>
+        <p class="card__author-name">Greg Hooper</p>
+      </section>
+    </main>
+
+    <footer class="card__attribution">
+      <p>
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.frontendmentor.io/profile/nevikai">Ali Nevikai</a>.
+      </p>
+    </footer>
+  </body>
+</html>

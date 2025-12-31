@@ -1,0 +1,11 @@
+@import url(assets/styles/root.css);
+@import url(assets/styles/reset.css);
+
+.card__attribution {
+  font-size: var(--txt-sm);
+  text-align: center;
+  color: var(--color-gray-500);
+}
+.card__attribution a {
+  color: var(--color-gray-950);
+}
